@@ -189,7 +189,7 @@ public class MyArrayList<T> implements List<T> {
             array[i] = array[i+1];
         }
         size--;
-        return null;
+        return element;
     }
 
     @Override
