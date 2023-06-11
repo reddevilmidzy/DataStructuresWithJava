@@ -1,6 +1,6 @@
 # ArrayList 클래스
 
-[MyArrayList](/org/example/ch02/MyArrayList.java) 클래스에서 구현한 메서드를 살펴보자
+[MyArrayList](src/main/java/org/example/ch02/MyArrayList.java) 클래스에서 구현한 메서드를 살펴보자
 
 
 * ### get
@@ -154,3 +154,16 @@ public boolean removeAll(Collection<?> collection) {
 
 반복문이 한개라면 보통 선형이고, 반복문 두 개가 중첩되었다면 보통 이차이다. 하지만 각 반복문을 몇 번 실행하는지 생각해야 한다.  
 
+## 연결 자료구조
+
+자료구조가 연결되어 있다는 것은 노드(node)라는 객체들이 다른 노드에 대한 참조를 포함한 형태로 저장된다는 것이다.  
+연결 리스트에는 각 노드는 리스트의 다음 노드에 대한 참조를 포함하고, 또 다른 연결 구조로는 트리나 그래프가 있다. 이때 노드는  
+둘 이상의 다른 노드에 대한 참조를 포함한다.
+
+
+[노드에 대한 클래스 정의](src/main/java/org/example/ch03/ListNode.java)
+
+data와 next라는 두 개의 인스턴스를 가지고 있다. data는 해당 노드에 대한 Object 참조이고, next는 리스트에서
+다음 노드에 대한 참조이다. 마지막 노드의 next에는 null 이 들어간다.  
+
+[리스트 노드 사용 예시](src/main/java/org/example/ch03/LinkedListExample.java)
