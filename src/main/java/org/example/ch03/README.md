@@ -1,6 +1,6 @@
 # ArrayList 클래스
 
-[MyArrayList](src/main/java/org/example/ch02/MyArrayList.java) 클래스에서 구현한 메서드를 살펴보자
+[MyArrayList](https://github.com/reddevilmidzy/DataStructuresWithJava/blob/6494e973acf1b39954d313950cc85abb34866097/src/main/java/org/example/ch02/MyArrayList.java) 클래스에서 구현한 메서드를 살펴보자
 
 
 * ### get
@@ -161,9 +161,9 @@ public boolean removeAll(Collection<?> collection) {
 둘 이상의 다른 노드에 대한 참조를 포함한다.
 
 
-[노드에 대한 클래스 정의](src/main/java/org/example/ch03/ListNode.java)
+[노드에 대한 클래스 정의](https://github.com/reddevilmidzy/DataStructuresWithJava/blob/6494e973acf1b39954d313950cc85abb34866097/src/main/java/org/example/ch03/ListNode.java)
 
 data와 next라는 두 개의 인스턴스를 가지고 있다. data는 해당 노드에 대한 Object 참조이고, next는 리스트에서
 다음 노드에 대한 참조이다. 마지막 노드의 next에는 null 이 들어간다.  
 
-[리스트 노드 사용 예시](src/main/java/org/example/ch03/LinkedListExample.java)
+[리스트 노드 사용 예시](https://github.com/reddevilmidzy/DataStructuresWithJava/blob/6494e973acf1b39954d313950cc85abb34866097/src/main/java/org/example/ch03/LInkedListExample.java)
